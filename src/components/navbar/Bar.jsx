@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 import { useScrollPosition } from "../../hook/useScrollPosition";
 
 const Bar = () => {
@@ -19,29 +20,68 @@ const Bar = () => {
         scrollPosition < 90 ? defaultStyle : defaultStyle + " bg-gray-900"
       }
     >
-      <div className="flex justify-end items-center gap-4 mr-6 xl:gap-10 fullHD:gap-16">
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        animate={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 1,
+          ease: "easeOut",
+          delay: 3.2,
+        }}
+        className="flex justify-end items-center gap-4 mr-6 xl:gap-10 fullHD:gap-16"
+      >
         <NavLink to="/" className={isActiveLink}>
           Inicio
         </NavLink>
         <NavLink to="/portfolio" className={isActiveLink}>
           Portfolio
         </NavLink>
-      </div>
+      </motion.div>
 
-      <div className="place-self-center">
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        animate={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 1,
+          ease: "easeOut",
+          delay: 2.8,
+        }}
+        className="place-self-center"
+      >
         <Link to="/">
           <img src="/src/assets/images/logo.svg" alt="logo" className="w-12" />
         </Link>
-      </div>
+      </motion.div>
 
-      <div className="flex justify-start items-center gap-4 ml-6 xl:gap-10 fullHD:gap-16">
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        animate={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 1,
+          ease: "easeOut",
+          delay: 3.2,
+        }}
+        className="flex justify-start items-center gap-4 ml-6 xl:gap-10 fullHD:gap-16"
+      >
         <NavLink to="/about" className={isActiveLink}>
           Sobre mi
         </NavLink>
         <NavLink to="/contact" className={isActiveLink}>
           Contacto
         </NavLink>
-      </div>
+      </motion.div>
     </div>
   );
 };

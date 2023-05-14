@@ -63,7 +63,7 @@ const HamburgerMenu = () => {
             duration: 0.1,
             ease: "easeOut",
           }}
-          className="w-11/12 mx-auto transition-all top-20 flex flex-col gap-2 py-4 bg-gray-900 rounded-lg border-blue-300 border-2 mt-4 lg:hidden"
+          className="absolute mx-auto left-0 right-0 w-11/12 transition-all top-20 flex flex-col gap-2 py-4 bg-gray-900 rounded-lg border-blue-300 border-2 mt-4 lg:hidden"
         >
           <div className="flex flex-col items-center gap-2 uppercase">
             {menuList.map((menu, i) => (
