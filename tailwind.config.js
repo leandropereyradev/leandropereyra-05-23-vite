@@ -8,6 +8,7 @@ export default {
       },
       gridTemplateColumns: {
         navbar: "45% 10% 45%",
+        about: "65% 35%",
       },
     },
   },

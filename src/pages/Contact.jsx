@@ -93,7 +93,7 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <img
-              src={`/src/assets/images/${icon.icon}.svg`}
+              src={`/src/assets/images/contact/${icon.icon}.svg`}
               alt={icon.icon}
               className="w-14 md:w-24 lg:transition-all lg:hover:scale-110 lg:w-20"
             />
