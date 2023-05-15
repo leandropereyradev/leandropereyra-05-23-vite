@@ -6,13 +6,15 @@ const Bar = () => {
   const scrollPosition = useScrollPosition();
 
   const isActiveLink = ({ isActive }) => {
+    const defaultStyle = " tracking-[0.2em] uppercase xl:text-xl";
+
     return isActive
-      ? "text-blue-300 font-bold uppercase tracking-[0.2em]"
-      : "tracking-[0.2em] uppercase hover:text-blue-300 hover:font-bold";
+      ? "text-blue-400 font-bold" + defaultStyle
+      : "hover:text-blue-300 hover:font-bold" + defaultStyle;
   };
 
   const defaultStyle =
-    "hidden lg:visible fixed w-full transition-all lg:grid grid-cols-navbar text-gray-50 px-3 py-2";
+    "hidden lg:visible fixed w-full transition-all lg:grid grid-cols-navbar text-gray-50 px-3 py-2 lg:pt-3";
 
   return (
     <div
@@ -32,7 +34,7 @@ const Bar = () => {
           ease: "easeOut",
           delay: 3.2,
         }}
-        className="flex justify-end items-center gap-4 mr-6 xl:gap-10 fullHD:gap-16"
+        className="flex justify-end items-center gap-4 mr-6 lg:gap-14 xl:gap-24 fullHD:gap-36"
       >
         <NavLink to="/" className={isActiveLink}>
           Inicio
@@ -73,7 +75,7 @@ const Bar = () => {
           ease: "easeOut",
           delay: 3.2,
         }}
-        className="flex justify-start items-center gap-4 ml-6 xl:gap-10 fullHD:gap-16"
+        className="flex justify-start items-center gap-4 ml-6 lg:gap-14 xl:gap-24 fullHD:gap-36"
       >
         <NavLink to="/about" className={isActiveLink}>
           Sobre mi
