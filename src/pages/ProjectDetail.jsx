@@ -1,5 +1,11 @@
+import ProjectTemplate from "../components/portfolio/ProjectTemplate";
+
 const ProjectDetail = () => {
-  return <div>Project</div>;
+  return (
+    <section>
+      <ProjectTemplate />
+    </section>
+  );
 };
 
 export default ProjectDetail;
