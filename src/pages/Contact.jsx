@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 
 const Contact = () => {
+  window.scrollTo(0, 0);
+
   const contactIcon = [
     {
       ref: "mailto:contacto@leandropereyra.com",

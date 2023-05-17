@@ -30,8 +30,8 @@ const HamburgerMenu = () => {
       : "bg-transparent w-11/12 text-gray-50 tracking-[0.2em] text-center py-2 md:text-xl";
 
   return (
-    <>
-      <div className="fixed w-full flex items-center justify-between text-gray-50 px-3 py-2 bg-gray-900 lg:hidden">
+    <div className="fixed w-full">
+      <div className="flex items-center justify-between text-gray-50 px-3 py-2 bg-gray-900 lg:hidden">
         <div className="">
           <Link to="/">
             <img
@@ -79,7 +79,7 @@ const HamburgerMenu = () => {
           </div>
         </motion.div>
       )}
-    </>
+    </div>
   );
 };
 

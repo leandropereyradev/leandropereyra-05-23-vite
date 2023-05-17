@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 
 const Home = () => {
+  window.scrollTo(0, 0);
+
   return (
     <header className="text-white h-screen flex flex-col justify-center items-center overflow-hidden">
       <motion.section
