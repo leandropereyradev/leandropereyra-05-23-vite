@@ -1,0 +1,46 @@
+[
+  {
+    "id": "parana-aventura",
+    "name": "Paraná Aventura",
+    "detail": "Alojamiento en Zonas de Pesca",
+    "images": ["parana-aventura-a.jpg", "parana-aventura-b.jpg", "parana-aventura-c.jpg"],
+    "paragraphs_a":["En este espacio, te invito a explorar y descubrir mis proyectos y logros. Uno de mis proyectos destacados es Paraná Aventura, una emocionante plataforma dedicada a la pesca deportiva en el Delta del Río Paraná, en Buenos Aires.", "Paraná Aventura es un completo sistema basado en una API RESTFul desarrollada con Node.js, Express y Axios. Utiliza MongoDB Atlas como base de datos para almacenar y gestionar la información. Su frontend se encuentra implementado en React y utiliza el framework Tailwind CSS."],
+    "paragraphs_b": ["La plataforma ofrece a los usuarios una experiencia interactiva, permitiéndoles registrarse, explorar las diversas zonas de pesca disponibles y conocer los peces autóctonos de cada área. Además, brinda la posibilidad de acceder a alojamientos exclusivos en las islas, donde los pescadores podrán descansar y disfrutar de la tranquilidad del entorno.", "Un aspecto destacado de Paraná Aventura es que los usuarios deben alquilar las zonas de pesca a través de la misma plataforma, lo que garantiza un acceso exclusivo y una experiencia personalizada para cada pescador."],
+    "paragraphs_c": ["Te invito a explorar mi proyecto en GitHub para conocer más detalles sobre su funcionamiento y cómo se ha implementado cada una de las tecnologías mencionadas. No dudes en contactarme si tienes alguna pregunta o si deseas conocer más sobre este emocionante proyecto.", "¡Espero que disfrutes explorando Paraná Aventura y descubriendo todo lo que esta plataforma tiene para ofrecer!"],
+    "github": "https://github.com/leandropereyradev/parana-aventura",
+    "web": "https://parana-aventura-web.onrender.com/"
+  },
+  {
+    "id": "wonder-ghost",
+    "name": "Wonder Ghost",
+    "detail": "Juego de plataformas",
+    "images": ["wonder-ghost-a.jpg", "wonder-ghost-b.jpg", "wonder-ghost-c.jpg"],
+    "paragraphs_a":["Wonder Ghost es un divertido juego desarrollado con HTML, CSS y JavaScript, haciendo uso de la potencia del elemento Canvas y la programación orientada a objetos con clases en JavaScript. Sumérgete en una aventura mágica junto a nuestro valiente protagonista, un fantasma con habilidades especiales.", "En este emocionante juego, el objetivo principal de Wonder Ghost es rescatar a sus amigos murciélagos, quienes han sido capturados por el malvado Dr. Julius Motauski. A medida que avances por los niveles, enfrentarás desafíos y utilizarás las habilidades únicas del fantasma para liberar a los murciélagos y frustrar los planes del Dr. Motauski."],
+    "paragraphs_b": ["El desarrollo del juego se basa en la interacción con el jugador mediante el teclado. La utilización de Canvas permite crear gráficos envolventes y animaciones fluidas, brindando una experiencia visualmente atractiva. Además, la implementación de clases en JavaScript proporciona una estructura organizada y facilita el mantenimiento y la ampliación del código.", "Te invito a explorar el código fuente de Wonder Ghost en mi GitHub, donde encontrarás detalles sobre su implementación y podrás apreciar cómo HTML, CSS y JavaScript trabajan en conjunto para crear esta emocionante aventura."],
+    "paragraphs_c": ["¡Espero que disfrutes de Wonder Ghost y te diviertas rescatando a los murciélagos junto a nuestro valiente fantasma! No dudes en contactarme si tienes alguna pregunta o si deseas conocer más sobre este fascinante proyecto.", "¡Prepárate para sumergirte en el mundo mágico de Wonder Ghost y demostrar tu valentía en esta emocionante misión de rescate!"],
+    "github": "https://github.com/leandropereyradev/WonderGhost",
+    "web": "https://wonderghost.leandropereyra.com/"
+  },
+  {
+    "id": "peces-tropicales",
+    "name": "Peces Tropicales",
+    "detail": "Información para acuariófilos",
+    "images": ["peces-tropicales-a.jpg", "peces-tropicales-b.jpg", "peces-tropicales-c.jpg"],
+    "paragraphs_a":["Peces Tropicales es un sitio web desarrollado utilizando tecnologías como Next.js, Axios y MongoDB Atlas. El objetivo de este proyecto es brindar información detallada sobre peces tropicales que son comúnmente utilizados en acuarios.", "En esta plataforma, encontrarás una amplia gama de información sobre los peces tropicales, incluyendo datos sobre el tipo de agua que necesitan, su morfología, su reproducción y una imagen ilustrativa del pez en cuestión. Mi objetivo es proporcionar a los entusiastas de los acuarios una fuente confiable y completa de información para ayudarles a cuidar y disfrutar de sus peces tropicales de manera adecuada."],
+    "paragraphs_b": ["El uso de Next.js permite crear una aplicación de React de alto rendimiento y fácil escalabilidad. Además, Axios nos permite realizar peticiones HTTP para obtener datos de manera eficiente. La base de datos MongoDB Atlas nos brinda un almacenamiento seguro y confiable para gestionar la información sobre los peces tropicales.", "Explora el contenido de Peces Tropicales para descubrir detalles fascinantes sobre diferentes especies de peces tropicales y cómo mantener un acuario saludable. Ya seas un principiante o un aficionado experimentado, encontrarás información útil y precisa para garantizar el bienestar de tus peces tropicales."],
+    "paragraphs_c": ["Visita mi GitHub para acceder al código fuente de Peces Tropicales y descubrir cómo se ha implementado Next.js, Axios y MongoDB Atlas en este proyecto.", "¡Espero que disfrutes explorando la fascinante diversidad de peces tropicales y encuentres información valiosa para crear y mantener un acuario hermoso y saludable! Si tienes alguna pregunta o necesitas más detalles sobre Peces Tropicales, no dudes en contactarme.", "¡Sumérgete en el mundo de los peces tropicales y disfruta de la belleza y la tranquilidad que traen a nuestros hogares!"],
+    "github": "https://github.com/leandropereyradev/peces-next-mongo",
+    "web": "https://peces.vercel.app/"
+  },
+  {
+    "id": "weather-app",
+    "name": "Weather App",
+    "detail": "Aplicacion para ver el tiempo",
+    "images": ["weather-app-a.jpg", "weather-app-b.jpg", "weather-app-c.jpg"],
+    "paragraphs_a":["Weather App es una aplicación diseñada para brindarte información precisa sobre el clima de cualquier ciudad que desees consultar. Utilizando la API de WeatherAPI.com, te proporciono datos actualizados y detallados sobre las condiciones meteorológicas.", "Al acceder a Weather App, simplemente ingresa el nombre de la ciudad que deseas consultar en el campo de búsqueda. La aplicación realizará una solicitud a la API de WeatherAPI.com y te mostrará información relevante como la temperatura actual."],
+    "paragraphs_b": ["Weather App ha sido desarrollada utilizando React JS y Tailwind CSS. Además, hemos implementado la API de WeatherAPI.com para obtener los datos meteorológicos en tiempo real. Nuestro objetivo principal es brindarte una experiencia simple y efectiva para que puedas acceder rápidamente a la información del clima de cualquier ciudad.", "Te invito a visitar mi GitHub para explorar el código fuente de Weather App y comprender cómo se ha realizado la integración con la API de WeatherAPI.com."],
+    "paragraphs_c": ["¡No importa dónde te encuentres, Weather App te mantendrá informad@ sobre las condiciones meteorológicas actuales! Si tienes alguna pregunta o necesitas más información sobre el funcionamiento de la aplicación, no dudes en contactarme.", "¡Disfruta de Weather App y mantente preparad@ para cualquier condición climática que se presente!"],
+    "github": "https://github.com/leandropereyradev/weather-app",
+    "web": "https://weatherapp.leandropereyra.com/"
+  }
+]
