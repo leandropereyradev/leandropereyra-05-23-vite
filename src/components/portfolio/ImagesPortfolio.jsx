@@ -27,7 +27,7 @@ const ImagesPortfolio = () => {
           >
             <Link to={`/portfolio/${image.link}`}>
               <motion.img
-                src={`/src/assets/images/portfolio/${image.image}`}
+                src={`/assets/images/portfolio/${image.image}`}
                 alt={image.name}
                 className="rounded-lg border-2 border-blue-400"
                 whileHover={{

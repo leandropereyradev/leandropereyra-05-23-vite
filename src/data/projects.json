@@ -35,7 +35,7 @@
   {
     "id": "weather-app",
     "name": "Weather App",
-    "detail": "Aplicacion para ver el tiempo",
+    "detail": "Aplicación para ver el tiempo",
     "images": ["weather-app-a.jpg", "weather-app-b.jpg", "weather-app-c.jpg"],
     "paragraphs_a":["Weather App es una aplicación diseñada para brindarte información precisa sobre el clima de cualquier ciudad que desees consultar. Utilizando la API de WeatherAPI.com, te proporciono datos actualizados y detallados sobre las condiciones meteorológicas.", "Al acceder a Weather App, simplemente ingresa el nombre de la ciudad que deseas consultar en el campo de búsqueda. La aplicación realizará una solicitud a la API de WeatherAPI.com y te mostrará información relevante como la temperatura actual."],
     "paragraphs_b": ["Weather App ha sido desarrollada utilizando React JS y Tailwind CSS. Además, hemos implementado la API de WeatherAPI.com para obtener los datos meteorológicos en tiempo real. Nuestro objetivo principal es brindarte una experiencia simple y efectiva para que puedas acceder rápidamente a la información del clima de cualquier ciudad.", "Te invito a visitar mi GitHub para explorar el código fuente de Weather App y comprender cómo se ha realizado la integración con la API de WeatherAPI.com."],

@@ -13,7 +13,7 @@ const ArticleDetail = ({
     <article className="text-gray-50">
       <div className="flex justify-end">
         <img
-          src={`/src/assets/images/portfolio/detail/${images[0]}`}
+          src={`/assets/images/portfolio/detail/${images[0]}`}
           alt=""
           className="max-h-[180px] md:max-h-[372px] lg:max-h-[462px] xl:max-h-[577px] fullHD:max-h-[867px] rounded-tl-lg rounded-bl-lg border-t-2 border-b-2 border-l-2 border-blue-400"
         />
@@ -25,7 +25,7 @@ const ArticleDetail = ({
       </div>
       <div className="flex">
         <img
-          src={`/src/assets/images/portfolio/detail/${images[1]}`}
+          src={`/assets/images/portfolio/detail/${images[1]}`}
           alt=""
           className="max-h-[180px] md:max-h-[372px] lg:max-h-[462px] xl:max-h-[577px] fullHD:max-h-[867px] rounded-tr-lg rounded-br-lg border-t-2 border-b-2 border-r-2 border-blue-400"
         />
@@ -37,7 +37,7 @@ const ArticleDetail = ({
       </div>
       <div className="flex justify-end">
         <img
-          src={`/src/assets/images/portfolio/detail/${images[2]}`}
+          src={`/assets/images/portfolio/detail/${images[2]}`}
           alt=""
           className="max-h-[180px] md:max-h-[372px] lg:max-h-[462px] xl:max-h-[577px] fullHD:max-h-[867px] rounded-tl-lg rounded-bl-lg border-t-2 border-b-2 border-l-2 border-blue-400"
         />

@@ -19,7 +19,7 @@ const Home = () => {
           ease: "easeOut",
           delay: 0.8,
         }}
-        className="flex flex-col justify-center items-center bg-[url('/src/assets/images/logo-bg.svg')] bg-no-repeat bg-center w-full max-w-xs h-full mt-12 md:max-w-xl lg:max-w-md fullHD:max-w-xl"
+        className="flex flex-col justify-center items-center bg-[url('/assets/images/logo-bg.svg')] bg-no-repeat bg-center w-full max-w-xs h-full mt-12 md:max-w-xl lg:max-w-md fullHD:max-w-xl"
       >
         <motion.h2
           initial={{

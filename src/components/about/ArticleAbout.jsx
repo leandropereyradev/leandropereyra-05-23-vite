@@ -17,7 +17,7 @@ const ArticleAbout = () => {
           </p>
         </div>
         <img
-          src="/src/assets/images/about/dad-pic.png"
+          src="/assets/images/about/dad-pic.png"
           alt="dad"
           className="md:max-w-[250px] md:place-self-end xl:max-w-xs fullHD:max-w-sm"
         />

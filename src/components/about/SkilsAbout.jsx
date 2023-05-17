@@ -36,7 +36,7 @@ const SkilsAbout = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0 }}
-            src={`/src/assets/images/about/${tech}.svg`}
+            src={`/assets/images/about/${tech}.svg`}
             alt={tech}
             className="w-14 h-14 md:w-20 md:h-20"
           />

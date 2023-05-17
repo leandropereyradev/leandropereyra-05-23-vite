@@ -34,17 +34,13 @@ const HamburgerMenu = () => {
       <div className="flex items-center justify-between text-gray-50 px-3 py-2 bg-gray-900 lg:hidden">
         <div className="">
           <Link to="/">
-            <img
-              src="/src/assets/images/logo.svg"
-              alt="logo"
-              className="w-12"
-            />
+            <img src="/assets/images/logo.svg" alt="logo" className="w-12" />
           </Link>
         </div>
 
         <div className="flex">
           <button onClick={() => setMenu(!menu)}>
-            <img src="/src/assets/images/menu.svg" alt="menu" className="w-8" />
+            <img src="/assets/images/menu.svg" alt="menu" className="w-8" />
           </button>
         </div>
       </div>

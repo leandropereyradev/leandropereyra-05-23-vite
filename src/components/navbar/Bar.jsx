@@ -59,7 +59,7 @@ const Bar = () => {
         className="place-self-center"
       >
         <Link to="/">
-          <img src="/src/assets/images/logo.svg" alt="logo" className="w-12" />
+          <img src="/assets/images/logo.svg" alt="logo" className="w-12" />
         </Link>
       </motion.div>
 
